@@ -1,7 +1,6 @@
 body {
  background: #1fa5b1 ;
- background;
-}
+ }
 h1:hover {
   color: #f07889;
 }
@@ -13,12 +12,28 @@ h1:hover {
 }
 h1 {
   float:right;
-  color:  white;
+  color:white;
+}
+h2 {
+  color:white;
+}
+p {
+  color:white;
+}
+ul {
+  color:white;
+}
+ol {
+  color:white;
+}
+li {
+  color:white;
+}
+.about {
+  padding: 10px;
 }
 .about .img-responsive{
   max-width: 80%
-
-
 }
 .btn {
     padding: 14px 24px;
@@ -27,11 +42,9 @@ h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
-
 .btn-primary {
     margin-left: 2px;
     background: #e1a535;
@@ -41,11 +54,9 @@ h1 {
     background: #d8caa1;
     color: #ffffff;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #6bab38;
 }
-
 .btn-primary:active, .btn-primary.active {
     background: #e1a535;
     box-shadow: none;
