@@ -1,9 +1,15 @@
 body {
  background: #1fa5b1 ;
  }
-h1:hover {
-  color: #f07889;
-}
+ h1:hover {
+   color: #f07889;
+ }
+ .box {
+   margin: 12px;
+  border: 2px solid #1a424e;
+  padding: 4px;
+  background-color: #e1a535;
+ }
 .img-responsive {
     max-width: 20%;
 }
@@ -11,8 +17,11 @@ h1:hover {
   background: #1a424e ;
 }
 h1 {
-  float:right;
+  float:left;
   color:white;
+}
+.spec {
+  color:red;
 }
 h2 {
   color:white;
