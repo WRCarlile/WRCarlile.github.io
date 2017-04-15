@@ -1,0 +1,172 @@
+/* body {
+  background-image: url("../img/t_mat2.gif");
+} */
+h1,h2,h3,h4 {
+  font-style: italic;
+  font-weight: bold;
+}
+a#pull-left {
+  float: left !important;
+}
+a#pull-right {
+  float: right !important;
+}
+
+.site-wrapper {
+  margin: 60px auto;
+}
+.wrapper {
+  padding: 30px 0;
+}
+#title {
+  text-align: center;
+  color: blue;
+}
+a {
+  text-decoration: underline;
+  color: blue;
+}
+.fan {
+    display: block;
+    width: 40%;
+		margin: 30px auto;
+}
+
+.welcome {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+.welcome h1 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: left;
+ color: #FF0000;
+ font-style: italic;
+ font-weight: bold;
+ /* Apply animation to this element */
+ -moz-animation: welcome 5s linear infinite alternate;
+ -webkit-animation: welcome 5s linear infinite alternate;
+ animation: welcome 5s linear infinite alternate;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example5 {
+ 0%   { -moz-transform: translateX(70%); }
+ 100% { -moz-transform: translateX(0%); }
+}
+@-webkit-keyframes example5 {
+ 0%   { -webkit-transform: translateX(70%); }
+ 100% { -webkit-transform: translateX(0%); }
+}
+@keyframes welcome {
+ 0%   {
+ -moz-transform: translateX(70%); /* Firefox bug fix */
+ -webkit-transform: translateX(70%); /* Firefox bug fix */
+ transform: translateX(70%);
+ }
+ 100% {
+ -moz-transform: translateX(0%); /* Firefox bug fix */
+ -webkit-transform: translateX(0%); /* Firefox bug fix */
+ transform: translateX(0%);
+ }
+}
+
+.main-feed {
+  margin-bottom: 15px;
+  height: 1000px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+img#blog-img {
+  width: 98%;
+}
+article{
+  padding: 15px;
+}
+.modal-header {
+    padding: 0px;
+    border-bottom: none;
+}
+.modal-content{
+    width: 850px;
+}
+.letter {
+  text-align: center;
+}
+
+.videos {
+  text-align: center;
+}
+body::-webkit-scrollbar {
+   width: 21px;
+   height: 21px;
+}
+.main-feed::-webkit-scrollbar {
+ width: 21px;
+ height: 21px;
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: silver;
+ border-left: ridge 2px #fff;
+ border-top: ridge 2px #fff;
+ border-right: ridge 2px grey;
+ border-bottom: ridge 2px grey;
+}
+.main-feed::-webkit-scrollbar-thumb {
+ background-color: silver;
+ border-left: ridge 2px #fff;
+ border-top: ridge 2px #fff;
+ border-right: ridge 2px grey;
+ border-bottom: ridge 2px grey;
+}
+body::-webkit-scrollbar-track {
+ background-image: url(../img/bg-scrollbar-track.png);
+ background-size: 2px;
+}
+.main-feed::-webkit-scrollbar-track {
+ background-image: url(../img/bg-scrollbar-track.png);
+ background-size: 2px;
+}
+
+body::-webkit-scrollbar-button:vertical:end:increment{background-image:url(../img/sprite-old-school-scroll.png);background-position:0 0;width:17px;height:18px;height:22px}
+.main-feed::-webkit-scrollbar-button:vertical:end:increment{background-image:url(../img/sprite-old-school-scroll.png);background-position:0 0;width:17px;height:18px;height:22px}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){body::-webkit-scrollbar-track{background-image:url(../img/bg-scrollbar-track@2x.png)}}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-track{background-image:url(../img/bg-scrollbar-track@2x.png)}}
+
+body::-webkit-scrollbar-button:horizontal:end:increment,body::-webkit-scrollbar-button:horizontal:start:decrement,body::-webkit-scrollbar-button:vertical:end:increment,body::-webkit-scrollbar-button:vertical:start:decrement{background-color:silver;border-left:ridge 2px #fff;border-top:ridge 2px #fff;border-right:ridge 2px grey;border-bottom:ridge 2px grey;width:21px;height:21px;display:block}
+
+.main-feed::-webkit-scrollbar-button:horizontal:end:increment,.main-feed::-webkit-scrollbar-button:horizontal:start:decrement,.main-feed::-webkit-scrollbar-button:vertical:end:increment,.main-feed::-webkit-scrollbar-button:vertical:start:decrement{background-color:silver;border-left:ridge 2px #fff;border-top:ridge 2px #fff;border-right:ridge 2px grey;border-bottom:ridge 2px grey;width:21px;height:21px;display:block}
+
+
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){body::-webkit-scrollbar-button:vertical:end:increment{background-image:url(../img/ui/sprite-old-school-scroll-2x.png);background-size:70px 18px}}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-button:vertical:end:increment{background-image:url(../img/ui/sprite-old-school-scroll-2x.png);background-size:70px 18px}}
+
+body::-webkit-scrollbar-button:vertical:start:decrement{background-image:url(../img/sprite-old-school-scroll.png);background-position:-17px 0;width:17px;height:18px;height:22px}
+
+.main-feed::-webkit-scrollbar-button:vertical:start:decrement{background-image:url(../img/sprite-old-school-scroll.png);background-position:-17px 0;width:17px;height:18px;height:22px}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){body::-webkit-scrollbar-button:vertical:start:decrement{background-image:url(../img/ui/sprite-old-school-scroll-2x.png);background-size:70px 18px}}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-button:vertical:start:decrement{background-image:url(../img/ui/sprite-old-school-scroll-2x.png);background-size:70px 18px}}
+
+body::-webkit-scrollbar-button:horizontal:end:increment{background-image:url(../img/sprite-old-school-scroll.png);background-position:-52px 0;width:18px;height:17px;height:22px}
+
+.main-feed::-webkit-scrollbar-button:horizontal:end:increment{background-image:url(../img/sprite-old-school-scroll.png);background-position:-52px 0;width:18px;height:17px;height:22px}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){body::-webkit-scrollbar-button:horizontal:end:increment{background-image:url(../img/ui/sprite-old-school-scroll-2x.png);background-size:70px 18px}}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-button:horizontal:end:increment{background-image:url(../img/ui/sprite-old-school-scroll-2x.png);background-size:70px 18px}}
+
+body::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll.png);background-position:-34px 0;width:18px;height:17px;height:22px}.section,.section .background,.section .graphic,.section .ribbon,.section .vertical-strip{background-position:center}
+
+.main-feed::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll.png);background-position:-34px 0;width:18px;height:17px;height:22px}.section,.section .background,.section .graphic,.section .ribbon,.section .vertical-strip{background-position:center}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){body::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll-2x.png);background-size:70px}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll-2x.png);background-size:70px}
