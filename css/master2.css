@@ -76,10 +76,6 @@ a {
 
 .main-feed {
   margin-bottom: 15px;
-  height: 1000px;
-  width: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 img#blog-img {
   width: 98%;
@@ -101,7 +97,9 @@ article{
 .videos {
   text-align: center;
 }
-body::-webkit-scrollbar {
+
+/*
+ body::-webkit-scrollbar {
    width: 21px;
    height: 21px;
 }
@@ -169,4 +167,4 @@ body::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(.
 .main-feed::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll.png);background-position:-34px 0;width:18px;height:17px;height:22px}.section,.section .background,.section .graphic,.section .ribbon,.section .vertical-strip{background-position:center}
 
 @media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){body::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll-2x.png);background-size:70px}
-@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll-2x.png);background-size:70px}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.main-feed::-webkit-scrollbar-button:horizontal:start:decrement{background-image:url(../img/sprite-old-school-scroll-2x.png);background-size:70px} */

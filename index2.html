@@ -15,22 +15,43 @@
 		<title>Mac-Test</title>
 
 	</head>
-	<script type="text/javascript">
-		$(document).ready(function() {
+<script type="text/javascript">
+	$(document).ready(function() {
 
-				var bgArray = ['t_mat2.gif','bg-2.png', 'bg-3.png', 'sfondo1.gif', 'pap12.gif'];
-				var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+			var bgArray = ['t_mat2.gif','bg-2.png', 'sfondo1.gif', 'pap12.gif', 'water002.gif', 'animals.jpg', 'backr.jpg', 'marble.gif', 'marble2.jpg', 'ripples.jpg', 'tiedye.jpg', 'stuk.gif'];
+			var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
 
-				$('body').css('background', bg);
+			$('body').css('background', bg);
 
-				// If you have defined a path for the images
-				var path = 'url(img/';
+			// If you have defined a path for the images
+			var path = 'url(img/';
 
-				// then you can put it right before the variable 'bg'
-				$('body').css('background', path+bg+")");
+			// then you can put it right before the variable 'bg'
+			$('body').css('background', path+bg+")");
 
-		});
-		</script>
+
+			 var macUrl = $("#macV").attr('src');
+
+			 $("#macVidModal").on('hide.bs.modal', function(){
+					 $("#macV").attr('src', '');
+			 });
+
+			 $("#macVidModal").on('show.bs.modal', function(){
+					 $("#macV").attr('src', macUrl);
+			 });
+			 var momUrl = $("#momV").attr('src');
+
+			 $("#momVidModal").on('hide.bs.modal', function(){
+					 $("#momV").attr('src', '');
+			 });
+
+			 $("#momVidModal").on('show.bs.modal', function(){
+					 $("#momV").attr('src', momUrl);
+			 });
+	});
+
+	</script>
+
 	<body>
 
 		<div class="site-wrapper">
@@ -51,9 +72,9 @@
 					<!-- /.col-md-2 -->
 					<div class="col-md-8 ">
 						<h1 id="title">THE MAC DEMARCO FAN CLUB!</h1>
-						<div class="fan"> <img class="img-responsive" src="img/fanclub.png" alt="the mac demarco fan club image"> </div>
+						<div class="fan"> <img class="img-responsive center-block" src="img/fanclub.png" alt="the mac demarco fan club image"> </div>
 						<div class="welcome">
-							<h1>Welcome!</h1> </div>
+							<h1>WELCOME!</h1> </div>
 						<div class="letter">
 							<h3>A LETTER FROM <a data-toggle="modal" data-target="#macModal">MAC </a>AND HIS <a data-toggle="modal" data-target="#momModal">MOM!</a></h3>
 							<div class="letter-gif"><img src="img/30.gif" alt=""> </div>
@@ -62,13 +83,13 @@
 						<!-- /.letter -->
 						<div class="videos">
 							<h3>A SPECIAL MESSAGE FOR YOU!</h3>
-							<p><a data-toggle="modal" data-target="#macVidModal"> Click here! </a></p>
-							<p><a data-toggle="modal" data-target="#momVidModal"> Click here! </a></p>
+							<p><img src="img/eyer.gif" alt=""><a data-toggle="modal" data-target="#macVidModal"> CLICK HERE! </a><img src="img/eyel.gif" alt=""></p>
+							<p><img src="img/eyer.gif" alt=""><a data-toggle="modal" data-target="#momVidModal"> ClICK HERE! </a><img src="img/eyel.gif" alt=""></p>
 						</div>
 						<!-- /.videos -->
 					</div>
 					<div class="col-md-2">
-						<p>Helo Ryan! <br><a href="#">sign in</a> / <a href="#">sign out</a></p>
+						<p>Hello Ryan! <br><a href="#">Sign In</a> / <a href="#">Sign Out</a></p>
 					</div>
 					<!-- /.col-md-2 -->
 				</div>
@@ -93,7 +114,7 @@
 					<div class="modal-dialog">
 						<!-- Modal content-->
 						<div class="modal-content">
-							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img src="img/21.gif" alt=""><iframe width="850" height="480" src="https://www.youtube.com/embed/89QGv6dp9c0" frameborder="0" allowfullscreen autoplay=1></iframe> </div>
+							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div> <img class="center-block" src="img/MICKEY_BAR.JPG" alt=""><iframe id="macV"width="850" height="480" src="https://www.youtube.com/embed/89QGv6dp9c0" frameborder="0" allowfullscreen></iframe> </div>
 					</div>
 				</div>
 				<!-- Modal -->
@@ -101,7 +122,7 @@
 					<div class="modal-dialog">
 						<!-- Modal content-->
 						<div class="modal-content">
-							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img src="img/21.gif" alt=""><iframe width="850" height="480" src="https://www.youtube.com/embed/udmJlqYUGFo" frameborder="0" allowfullscreen autoplay=1></iframe> </div>
+							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img class="center-block" src="img/dolphin.gif" alt=""><iframe id="momV" width="850" height="480" src="https://www.youtube.com/embed/udmJlqYUGFo" frameborder="0" allowfullscreen autoplay=1></iframe> </div>
 					</div>
 				</div>
 				<div class="wrapper">
