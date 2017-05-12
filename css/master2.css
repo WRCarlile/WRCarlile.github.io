@@ -1,6 +1,4 @@
-/* body {
-  background-image: url("../img/t_mat2.gif");
-} */
+
 h1,h2,h3,h4 {
   font-style: italic;
   font-weight: bold;
@@ -206,6 +204,22 @@ article {
 .recent-posts>p>a {
   font-weight: bold;
   font-style: italic;
+}
+@media(max-width:991px) {
+  .fanclub-wrapper {
+      padding: 30px 160px 0;
+  }
+  .site-wrapper {
+      margin: 0 auto;
+  }
+  .recent-container {
+      margin: 0 auto 30px;
+  }
+}
+@media(max-width:600px) {
+  .fanclub-wrapper {
+      padding: 30px 15px 0;
+  }
 }
 /*
  body::-webkit-scrollbar {
