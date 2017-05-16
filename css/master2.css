@@ -215,6 +215,9 @@ article {
   .recent-container {
       margin: 0 auto 30px;
   }
+  nav {
+    font-size: 1.5em;
+  }
 }
 @media(max-width:600px) {
   .fanclub-wrapper {
