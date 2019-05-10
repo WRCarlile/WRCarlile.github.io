@@ -1,176 +1,351 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/master.css">
-		<title>Mac-Test</title>
-	</head>
+  <head>
 
-	<body>
-		<div class="site-wrapper">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-2">
-						<nav>
-							<ul>
-								<li><a href="#">News</a></li>
-								<li><a href="#">Tour</a></li>
-								<li><a href="#">Video</a></li>
-								<li><a href="#">Homies</a></li>
-								<li><a href="#">Fun</a></li>
-								<li><a href="#">Store</a></li>
-							</ul>
-						</nav>
-					</div>
-					<!-- /.col-md-2 -->
-					<div class="col-md-8 ">
-						<h1 id="title">THE MAC DEMARCO FAN CLUB!</h1>
-						<div class="fan"> <img class="img-responsive" src="img/fanclub.png" alt="the mac demarco fan club image"> </div>
-						<div class="welcome">
-							<h1>Welcome!</h1> </div>
-						<div class="letter">
-							<h3>A LETTER FROM <a data-toggle="modal" data-target="#macModal">MAC </a>AND HIS <a data-toggle="modal" data-target="#momModal">MOM!</a></h3>
-							<div class="letter-gif"><img src="img/30.gif" alt=""> </div>
-							<!-- /.letter-gif -->
-						</div>
-						<!-- /.letter -->
-						<div class="videos">
-							<h3>A SPECIAL MESSAGE FOR YOU!</h3>
-							<p><a data-toggle="modal" data-target="#macVidModal"> Click here! </a></p>
-							<p><a data-toggle="modal" data-target="#momVidModal"> Click here! </a></p>
-						</div>
-						<!-- /.videos -->
-					</div>
-					<div class="col-md-2">
-						<p>Helo Ryan! <br><a href="#">sign in</a> / <a href="#">sign out</a></p>
-					</div>
-					<!-- /.col-md-2 -->
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="macModal" role="dialog">
-					<div class="modal-dialog">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img class="img-responsive" src="img/40.gif" alt=""><img class="img-responsive" src="img/MacLetter1-FINALNONUMBER-710x1024.jpg" alt=""> </div>
-					</div>
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="momModal" role="dialog">
-					<div class="modal-dialog">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img class="img-responsive" src="img/40.gif" alt=""><img class="img-responsive" src="img/agnes-letter-updated-791x1024.gif" alt=""> </div>
-					</div>
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="macVidModal" role="dialog">
-					<div class="modal-dialog">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img src="img/21.gif" alt=""><iframe width="850" height="480" src="https://www.youtube.com/embed/89QGv6dp9c0" frameborder="0" allowfullscreen autoplay=1></iframe> </div>
-					</div>
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="momVidModal" role="dialog">
-					<div class="modal-dialog">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div><img src="img/21.gif" alt=""><iframe width="850" height="480" src="https://www.youtube.com/embed/udmJlqYUGFo" frameborder="0" allowfullscreen autoplay=1></iframe> </div>
-					</div>
-				</div>
-				<div class="wrapper">
-					<div class="row">
-						<div class="col-md-3"></div>
-						<!-- /.col-md-2 -->
-						<div class="col-md-6">
-							<div class="main-feed">
-								<article class="blog">
-									<h3>Title</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eveniet et rem quis modi soluta corporis ratione obcaecati, repudiandae, perspiciatis consequatur provident quo vitae possimus ex, aliquam deserunt aut sint velit dolor. Voluptates
-										corporis aperiam dolores dicta recusandae ex, reprehenderit, unde laudantium eligendi dolorem at repellat optio perspiciatis consequuntur perferendis?</p> <img id="blog-img" src="img/Mac.jpg" alt=""> </article>
-								<!-- /.blog -->
-								<article class="blog">
-									<h3>Title</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure illum tempora ut laudantium cupiditate iusto ratione reiciendis saepe. Recusandae in quae officiis aliquid repellat rerum quisquam fugiat facilis, voluptatem, ipsam sint asperiores
-										nostrum debitis! At quidem, sapiente voluptate accusamus adipisci quae sint ab ducimus quaerat ullam quas sequi corporis, totam, autem iure ad repudiandae sed vel quibusdam cum. Quod minus, ad aspernatur, tempore nulla eum animi earum provident
-										officiis asperiores magnam, eius ut minima! Illo quis sequi quo ducimus blanditiis itaque architecto, distinctio ipsam dolore ex, molestias, hic esse praesentium harum reprehenderit enim sit delectus! Dolores ut assumenda nemo placeat quos,
-										labore id vel, nobis praesentium sapiente, suscipit. Dolorum voluptates explicabo cupiditate, expedita ex provident laborum ad inventore fuga distinctio, dolorem numquam repellat saepe fugit aperiam aliquid dolor eligendi, voluptatum, delectus
-										molestias tenetur laboriosam veritatis? Possimus quisquam nisi culpa alias id, deleniti quis eius ullam ea voluptates impedit illum excepturi assumenda at maiores quae, harum sint repellat! Quisquam ad dignissimos rerum amet laborum repudiandae
-										nulla debitis, voluptatem itaque minus at aliquid similique voluptas inventore distinctio! Ut voluptas veniam debitis vero distinctio quas explicabo aliquam obcaecati officia praesentium asperiores impedit dolorem dolore, voluptate voluptatibus
-										sapiente sit rerum voluptatem iure eos.</p>
-								</article>
-								<article class="blog">
-									<h3>Title</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure illum tempora ut laudantium cupiditate iusto ratione reiciendis saepe. Recusandae in quae officiis aliquid repellat rerum quisquam fugiat facilis, voluptatem, ipsam sint asperiores
-										nostrum debitis! At quidem, sapiente voluptate accusamus adipisci quae sint ab ducimus quaerat ullam quas sequi corporis, totam, autem iure ad repudiandae sed vel quibusdam cum. Quod minus, ad aspernatur, tempore nulla eum animi earum provident
-										officiis asperiores magnam, eius ut minima! Illo quis sequi quo ducimus blanditiis itaque architecto, distinctio ipsam dolore ex, molestias, hic esse praesentium harum reprehenderit enim sit delectus! Dolores ut assumenda nemo placeat quos,
-										labore id vel, nobis praesentium sapiente, suscipit. Dolorum voluptates explicabo cupiditate, expedita ex provident laborum ad inventore fuga distinctio, dolorem numquam repellat saepe fugit aperiam aliquid dolor eligendi, voluptatum, delectus
-										molestias tenetur laboriosam veritatis? Possimus quisquam nisi culpa alias id, deleniti quis eius ullam ea voluptates impedit illum excepturi assumenda at maiores quae, harum sint repellat! Quisquam ad dignissimos rerum amet laborum repudiandae
-										nulla debitis, voluptatem itaque minus at aliquid similique voluptas inventore distinctio! Ut voluptas veniam debitis vero distinctio quas explicabo aliquam obcaecati officia praesentium asperiores impedit dolorem dolore, voluptate voluptatibus
-										sapiente sit rerum voluptatem iure eos.</p>
-								</article>
-								<article class="blog">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure illum tempora ut laudantium cupiditate iusto ratione reiciendis saepe. Recusandae in quae officiis aliquid repellat rerum quisquam fugiat facilis, voluptatem, ipsam sint asperiores
-										nostrum debitis! At quidem, sapiente voluptate accusamus adipisci quae sint ab ducimus quaerat ullam quas sequi corporis, totam, autem iure ad repudiandae sed vel quibusdam cum. Quod minus, ad aspernatur, tempore nulla eum animi earum provident
-										officiis asperiores magnam, eius ut minima! Illo quis sequi quo ducimus blanditiis itaque architecto, distinctio ipsam dolore ex, molestias, hic esse praesentium harum reprehenderit enim sit delectus! Dolores ut assumenda nemo placeat quos,
-										labore id vel, nobis praesentium sapiente, suscipit. Dolorum voluptates explicabo cupiditate, expedita ex provident laborum ad inventore fuga distinctio, dolorem numquam repellat saepe fugit aperiam aliquid dolor eligendi, voluptatum, delectus
-										molestias tenetur laboriosam veritatis? Possimus quisquam nisi culpa alias id, deleniti quis eius ullam ea voluptates impedit illum excepturi assumenda at maiores quae, harum sint repellat! Quisquam ad dignissimos rerum amet laborum repudiandae
-										nulla debitis, voluptatem itaque minus at aliquid similique voluptas inventore distinctio! Ut voluptas veniam debitis vero distinctio quas explicabo aliquam obcaecati officia praesentium asperiores impedit dolorem dolore, voluptate voluptatibus
-										sapiente sit rerum voluptatem iure eos.</p>
-								</article>
-								<article class="blog">
-									<h3>Title</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure illum tempora ut laudantium cupiditate iusto ratione reiciendis saepe. Recusandae in quae officiis aliquid repellat rerum quisquam fugiat facilis, voluptatem, ipsam sint asperiores
-										nostrum debitis! At quidem, sapiente voluptate accusamus adipisci quae sint ab ducimus quaerat ullam quas sequi corporis, totam, autem iure ad repudiandae sed vel quibusdam cum. Quod minus, ad aspernatur, tempore nulla eum animi earum provident
-										officiis asperiores magnam, eius ut minima! Illo quis sequi quo ducimus blanditiis itaque architecto, distinctio ipsam dolore ex, molestias, hic esse praesentium harum reprehenderit enim sit delectus! Dolores ut assumenda nemo placeat quos,
-										labore id vel, nobis praesentium sapiente, suscipit. Dolorum voluptates explicabo cupiditate, expedita ex provident laborum ad inventore fuga distinctio, dolorem numquam repellat saepe fugit aperiam aliquid dolor eligendi, voluptatum, delectus
-										molestias tenetur laboriosam veritatis? Possimus quisquam nisi culpa alias id, deleniti quis eius ullam ea voluptates impedit illum excepturi assumenda at maiores quae, harum sint repellat! Quisquam ad dignissimos rerum amet laborum repudiandae
-										nulla debitis, voluptatem itaque minus at aliquid similique voluptas inventore distinctio! Ut voluptas veniam debitis vero distinctio quas explicabo aliquam obcaecati officia praesentium asperiores impedit dolorem dolore, voluptate voluptatibus
-										sapiente sit rerum voluptatem iure eos.</p>
-								</article>
-								<article class="blog">
-									<h3>Title</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure illum tempora ut laudantium cupiditate iusto ratione reiciendis saepe. Recusandae in quae officiis aliquid repellat rerum quisquam fugiat facilis, voluptatem, ipsam sint asperiores
-										nostrum debitis! At quidem, sapiente voluptate accusamus adipisci quae sint ab ducimus quaerat ullam quas sequi corporis, totam, autem iure ad repudiandae sed vel quibusdam cum. Quod minus, ad aspernatur, tempore nulla eum animi earum provident
-										officiis asperiores magnam, eius ut minima! Illo quis sequi quo ducimus blanditiis itaque architecto, distinctio ipsam dolore ex, molestias, hic esse praesentium harum reprehenderit enim sit delectus! Dolores ut assumenda nemo placeat quos,
-										labore id vel, nobis praesentium sapiente, suscipit. Dolorum voluptates explicabo cupiditate, expedita ex provident laborum ad inventore fuga distinctio, dolorem numquam repellat saepe fugit aperiam aliquid dolor eligendi, voluptatum, delectus
-										molestias tenetur laboriosam veritatis? Possimus quisquam nisi culpa alias id, deleniti quis eius ullam ea voluptates impedit illum excepturi assumenda at maiores quae, harum sint repellat! Quisquam ad dignissimos rerum amet laborum repudiandae
-										nulla debitis, voluptatem itaque minus at aliquid similique voluptas inventore distinctio! Ut voluptas veniam debitis vero distinctio quas explicabo aliquam obcaecati officia praesentium asperiores impedit dolorem dolore, voluptate voluptatibus
-										sapiente sit rerum voluptatem iure eos.</p>
-								</article>
-								<article class="blog">
-									<h3>Title</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure illum tempora ut laudantium cupiditate iusto ratione reiciendis saepe. Recusandae in quae officiis aliquid repellat rerum quisquam fugiat facilis, voluptatem, ipsam sint asperiores
-										nostrum debitis! At quidem, sapiente voluptate accusamus adipisci quae sint ab ducimus quaerat ullam quas sequi corporis, totam, autem iure ad repudiandae sed vel quibusdam cum. Quod minus, ad aspernatur, tempore nulla eum animi earum provident
-										officiis asperiores magnam, eius ut minima! Illo quis sequi quo ducimus blanditiis itaque architecto, distinctio ipsam dolore ex, molestias, hic esse praesentium harum reprehenderit enim sit delectus! Dolores ut assumenda nemo placeat quos,
-										labore id vel, nobis praesentium sapiente, suscipit. Dolorum voluptates explicabo cupiditate, expedita ex provident laborum ad inventore fuga distinctio, dolorem numquam repellat saepe fugit aperiam aliquid dolor eligendi, voluptatum, delectus
-										molestias tenetur laboriosam veritatis? Possimus quisquam nisi culpa alias id, deleniti quis eius ullam ea voluptates impedit illum excepturi assumenda at maiores quae, harum sint repellat! Quisquam ad dignissimos rerum amet laborum repudiandae
-										nulla debitis, voluptatem itaque minus at aliquid similique voluptas inventore distinctio! Ut voluptas veniam debitis vero distinctio quas explicabo aliquam obcaecati officia praesentium asperiores impedit dolorem dolore, voluptate voluptatibus
-										sapiente sit rerum voluptatem iure eos.</p>
-								</article>
-							</div> <a id="pull-left" href="">previous</a> <a id="pull-right" href="">next</a>
-							<!-- /.pagination -->
-						</div>
-						<!-- /.main-feed -->
-						<!-- <div class="input">
-								<p>SEARCH MAC: <input type="submit" value="SEARCH"> <input name=""></p>
-							</div> -->
-						<!-- /.input -->
-					</div>
-					<!-- /.wrapper -->
-				</div>
-				<!-- /.col-md-6 col-md-offset-3 -->
-			</div>
-			<!-- /.row -->
-		</div>
-		<!-- /.site-wrapper -->
-	</body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Ryan Carlile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Ryan Carlile</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="img/ryan.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="about">
+        <div class="w-100">
+          <h2 class="mb-0">Ryan
+            <span class="text-primary">Carlile</span>
+          </h2>
+          <div class="subheading mb-5">
+            Represented by Creative Circle ·
+            <a href="mailto:ryancarlile@mail.com">ryancarlile@gmail.com</a>
+          </div>
+          <p class="lead mb-5">Hi, I'm a front end developer specializing in PHP
+            and Wordpress. I've created 100's of custom Wordpress themes with
+            Timber / Twig Templating, Advanced Custom Fields Pro and Elementor.
+            I help maintain various Wordpress sites for Big Drum Digital and
+            clients that I acquire on my own as a freelancer. In 2016 I
+            graduated from a bootcamp called Epicodus where I built applications
+            with Ember JS, Angular 2, Java, Node JS, and Android Mobile.</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ryan-carlile/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/WRCarlile" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="experience">
+        <div class="w-100">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row
+            justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Freelance Wordpress Developer</h3>
+              <div class="subheading mb-3">Big Drum Digital / Beats in Space /
+                Form 3D</div>
+              <p>I work primarily as a PHP / Wordpress developer. I specialize
+                in custom Wordpress Themes using Advanced Custom Fields and
+                Timber / Twig templating. For small commercial sites I use
+                Elementor and either Woo Commerce or Shopify. All of my custom
+                themes include Gulp, SASS, Twig, and ACF PRO.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2016 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row
+            justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Technical Consultant</h3>
+              <div class="subheading mb-3">Next Reason</div>
+              <p> Next reason contracts with a company called Janrain that
+                provides identity management. I helped customers build
+                configurations for use with Janrain's system. We used JIRA for
+                bug tracking, client communication and technical support. Built
+                test applications with Postman for API calls and Python scripts
+                for deploying.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2017 - August 2018</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="projects">
+        <div class="w-100">
+          <h2 class="mb-5">Projects</h2>
+          <div class="gallery">
+            <h3 class="mb-0">Beats In Space</h3>
+            <div class="subheading mb-4"><a href="https://beatsinspace.net/"
+                target="_blank">beatsinspace.net</a></div>
+            <div class="row mb-5 p-3">
+              <div class="col-lg-4 col-12 mb-4">
+                <img src="img/bis-fp-static.png" alt="Beats in Space Home Page"
+                  data-toggle="modal" data-bigimage="img/bis-fp.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <img src="img/bis-radio.gif" alt="Beats in Space Radio"
+                  data-toggle="modal" data-bigimage="img/bis-radio.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <img src="img/bis-records-static.png" alt="Beats in Space
+                  Records" data-toggle="modal"
+                  data-bigimage="img/bis-records.gif" data-target="#myModal"
+                  class="img-fluid">
+              </div>
+            </div>
+            <h3 class="mb-0">Form 3D</h3>
+            <div class="subheading mb-4"><a href="https://form.xyz/"
+                target="_blank">form.xyz</a></div>
+            <div class="row mb-5">
+              <div class="col-lg-4 col-12 mb-4">
+                <img src="img/form-fp-gif.gif" alt="Form 3d Home Page"
+                  data-toggle="modal" data-bigimage="img/form-fp-gif.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <img src="img/form-3dscanning.png" alt="Beats in Space Records"
+                  data-toggle="modal" data-bigimage="img/form-3dscanning.png"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <img src="img/form-sculpting-gif.gif" alt="Beats in Space Radio"
+                  data-toggle="modal" data-bigimage="img/form-sculpting-gif.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+
+            </div>
+            <h3 class="mb-4">w/ Big Drum Digital</h3>
+            <div class="row">
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="https://bigdrumdigital.com/" target="_blank">Big Drum
+                    Digital</a></div>
+                <img src="img/bigdrum.png" alt="Big Drum Digital"
+                  data-toggle="modal" data-bigimage="img/bigdrum.png"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="https://robhoward.com/" target="_blank">Rob Howard</a></div>
+                <img src="img/rob-howard.gif" alt="Form 3d Home Page"
+                  data-toggle="modal" data-bigimage="img/rob-howard.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="https://dianazalucky.com/" target="_blank">Diana
+                    Zalucky</a></div>
+                <img src="img/diana.png" alt="Beats in Space Records"
+                  data-toggle="modal" data-bigimage="img/diana.png"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="http://www.stoeckerandnorthway.com/" target="_blank">Stoecker</a></div>
+                <img src="img/sandt.gif" alt="Form 3d Home Page"
+                  data-toggle="modal" data-bigimage="img/sandt.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="http://www.ammunitionwine.com/" target="_blank">Ammunition
+                    Wine</a></div>
+                <img src="img/ammunition.png" alt="Beats in Space Radio"
+                  data-toggle="modal" data-bigimage="img/ammunition.png"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"> <a
+                    href="https://missionphotoproduction.com/" target="_blank">Mission
+                    Photo</a></div>
+                <img src="img/mission.gif" alt="Beats in Space Records"
+                  data-toggle="modal" data-bigimage="img/mission.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+            </div>
+            <h3 class="mb-4">Various Freelance</h3>
+            <div class="row mb-5">
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="http://www.mac-demarco.com/" target="_blank">Mac
+                    Demarco</a></div>
+                <img src="img/mac.gif" alt="Form 3d Home Page"
+                  data-toggle="modal" data-bigimage="img/mac.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="https://www.opensignalpdx.org/" target="_blank">Open
+                    Signal</a></div>
+                <img src="img/opensignal.png" alt="Beats in Space Records"
+                  data-toggle="modal" data-bigimage="img/opensignal.png"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-12 mb-4">
+                <div class="subheading mb-4 text-center"><a
+                    href="http://visiblecloaks.com/" target="_blank"> Visible
+                    Cloaks</a></div>
+                <img src="img/cloaks.gif" alt="Beats in Space Radio"
+                  data-toggle="modal" data-bigimage="img/cloaks.gif"
+                  data-target="#myModal" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <img
+                    src="//media.tenor.com/images/556e9ff845b7dd0c62dcdbbb00babb4b/tenor.gif"
+                    alt="" id="image" class="img-fluid">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-2">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center"
+      id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-bootstrap"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-less"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-grunt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
 
 </html>
